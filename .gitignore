@@ -1,0 +1,8 @@
+**.rpyb
+**.rpyc
+**.bak
+
+.**/
+
+**.md
+!README.md
