@@ -7,5 +7,6 @@ The following can be modded into the game without needing to modify existing cod
 * New sandbox interactions
 * New texting interactions
 * New location actions
+* New locations
 
 This repo contains simple examples for modders. It is not intended to be used during standard gameplay.
