@@ -1,4 +1,4 @@
-define Rogue_interactions |= {
+define CHARACTERS.Rogue.interactions |= {
     InteractionClass(
         # For texting interactions use these function class calls
         FunctionClass("receive_text", "Rogue", _("Im good")),
@@ -8,8 +8,11 @@ define Rogue_interactions |= {
 
         FunctionClass("receive_text", "Rogue", _("only if you mod them in ;)")),
 
-        conditions = ConditionClass("EventScheduler.check('modding_examples_events_Rogue_modding')"),
+        conditions = "EventScheduler.check('ModdingExample.events.Rogue_modding')",
 
         flags = {"chatting", "texting"},
+
+        requirements = "-Rogue.any",
+        results = "Rogue.end",
     ),
 }
