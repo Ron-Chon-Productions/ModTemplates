@@ -12,6 +12,7 @@ define CHARACTERS.Rogue.interactions |= {
 
         flags = {"chatting", "texting"},
 
+        # Interactions that support multiple characters (such as texts due to group texting) should use the character tag as a prefix.
         requirements = "-Rogue.any",
         results = "Rogue.end",
     ),
